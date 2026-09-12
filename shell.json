@@ -1,0 +1,68 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "bar": {
+        "clock": {
+            "background": true,
+            "showDate": true,
+            "showIcon": true
+        },
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "battery"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            }
+        ],
+        "workspaces": {
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": true,
+            "perMonitorWorkspaces": true,
+            "showWindowsOnSpecialWorkspaces": false,
+            "shown": 5
+        }
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ]
+        }
+    },
+    "launcher": {
+        "hiddenApps": [
+            "org.gnome.Meld",
+            "dev.noctalia.Noctalia"
+        ],
+        "showOnHover": false
+    },
+    "paths": {
+        "mediaGif": "/home/imnuclr/Pictures/Assets/cat-stare.gif",
+        "sessionGif": "/home/imnuclr/Pictures/Assets/cat-tongue.gif"
+    },
+    "services": {
+        "audioIncrement": 0.05,
+        "brightnessIncrement": 0.05,
+        "gpuType": "Auto",
+        "smartScheme": true,
+        "useFahrenheit": false,
+        "useTwelveHourClock": true,
+        "visualiserBars": 100,
+        "weatherLocation": "Ivy Hatch,GB"
+    }
+}
